@@ -1,0 +1,15 @@
+{
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": ["/assets/*", "/*.svg", "/*.png", "/*.woff2"]
+  },
+  "globalHeaders": {
+    "X-Content-Type-Options": "nosniff",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Permissions-Policy": "camera=(), microphone=(), geolocation=()",
+    "Content-Security-Policy": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' blob: data:; font-src 'self'; connect-src 'self' https://login.microsoftonline.com https://*.img.ly https://staticimgly.com https://*.staticimgly.com; worker-src 'self' blob:; frame-src https://login.microsoftonline.com; base-uri 'self'; form-action 'self' https://login.microsoftonline.com; frame-ancestors 'none'"
+  },
+  "mimeTypes": {
+    ".wasm": "application/wasm"
+  }
+}
