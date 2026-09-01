@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.env.local
+.env.*.local
+.DS_Store
+*.log
+
+# Local brand-reference and unrelated design artifacts
+rawabi-brand/
+preview-render/
+rawabi-employee-of-the-month-template*
+render-rawabi-employee-month-v2.py
